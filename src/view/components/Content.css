@@ -1,0 +1,24 @@
+#content{
+    background-color: #312b4e;
+    padding: 20px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.btn{
+    position: absolute;
+    top: 15px;
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+}
+#grid{
+    left: 1000px;
+}
+#list{
+    left: 1050px;
+}
+#reload{
+    left: 1100px;
+}

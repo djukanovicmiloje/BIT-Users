@@ -1,0 +1,11 @@
+body{
+    background-color: #505bda;    
+}
+#user_dashboard{
+    width: 1200px;   
+    overflow: hidden;
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
