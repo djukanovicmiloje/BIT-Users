@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
-import Header from './components/Header';
-import Content from './components/Content';
-import Footer from './components/Footer'
-import './App.css'
+import React, { Component } from "react";
+import Header from "./components/Header";
+import Content from "./components/Content";
+import Footer from "./components/Footer";
+import "./App.css";
 class App extends Component {
   render() {
     // return <>
@@ -10,11 +10,13 @@ class App extends Component {
     //     <Content/>
     //     <Footer/>
     // </>
-    return <div id="user_dashboard">
-           <Header/>
-           <Content/>
-           <Footer/>
-    </div>;
+    return (
+      <div id="user_dashboard">
+        <Header />
+        <Content />
+        <Footer />
+      </div>
+    );
   }
 }
 
